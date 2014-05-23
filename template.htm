@@ -142,7 +142,20 @@
         <script type='text/javascript'>
             // var title = '[[PageTitle]]'; tried this in conjunction with first line in default.js but still not exactly sure how to remove HTML injection into body class [[title]] token when a category has HTML in the text.
         </script>
+
+
+        <!--[if !IE]><!-->
         <script src="js/default.js" type="text/javascript"></script>
+        <!--<![endif]-->
+
+        <!--[if lt IE 9]>
+        <script src="js/defaultIE8.js" type="text/javascript"></script>
+        <![endif]-->
+
+        <!--[if gte IE 9]>
+        <script src="js/default.js" type="text/javascript"></script>
+        <![endif]-->
+
         <script src="js/mods.js" type="text/javascript"></script>
         <script src="js/selectivizr.js" type="text/javascript"></script>
     </body>
