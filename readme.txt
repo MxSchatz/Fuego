@@ -1,8 +1,8 @@
-/*	Oct 2013
+/*	May 2014
  
- Theme: 	A Four51 buyer theme template.
- Author:	Ken Buras (http://www.kenburas.com/)
- Version:	1.0
+ Theme: 	Four51 buyer theme template.
+ Authors:	Ken Buras (http://www.kenburas.com/), Andrew Schatz (http://mrschatz.com), Vince Feton
+ Version:	1.2
  
         <link rel="stylesheet" type="text/css" href="css/reset.css" />
         * The goal of a reset stylesheet is to reduce browser inconsistencies for content.  
@@ -25,6 +25,7 @@
  Reset Resources:
  HTML5 - http://html5boilerplate.com/
  Normalize.css v2.0.1 | MIT License | git.io/normalize
+ selectivizr.js v1.0.2 | MIT License | http://selectivizr.com
  
  Colors Styles Outline:
  0. HTML
@@ -38,6 +39,7 @@
  
 font Icon resource:
 http://fortawesome.github.io/Font-Awesome/
+http://icomoon.io/
 
 CDN:
 http://www.bootstrapcdn.com/
@@ -53,3 +55,5 @@ Example links with link to category in navigation by InteropID: see Article #313
 
  Additional Information:
 
+Theme originally created by Ken Buras debugged by Vince Fenton, then modified and optimized by Andrew Schatz.
+This theme is made to work with Four51 OrderCloud.
