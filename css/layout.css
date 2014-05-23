@@ -444,7 +444,7 @@ a#t1_t2_btnProductSearch img {
     width: 200px;
 }
     .MenuWithUL {
-        width: 180px !important;
+        width: 160px !important;
     }
 
 .DynamicSubNav ul {
@@ -460,7 +460,8 @@ a#t1_t2_btnProductSearch img {
     position: relative;
     width: 200px;
     z-index: 999;
-    text-indent: 10px;
+    /*indent replaced by padding due to ugly second row text touching the edge*/
+    /*text-indent: 10px;*/
     border-top: none;
 }
 
@@ -468,7 +469,7 @@ a#t1_t2_btnProductSearch img {
     display: block;
     padding: .7em 0;
     text-decoration: none;
-    width: 200px; /* Extra space specifically for the */
+    width: 170px; /* Condensed from 200px for padding on .SubNav ul li a */
 }
 
 .DynamicSubNav li ul {
@@ -543,11 +544,11 @@ ul.DynamicSubNav li li li.sfHover ul {
 
 /* layer !important rules is easiest method to normalize multiple instances of left nav anchors */
 .SubNav ul li a {
-    padding: .7em 0 .5em 15px !important;
+    padding: 0.7em 15px 0.5em !important; /* Added left and right padding too add to 200px width*/
 }
 
 .SubNav ul.DynamicSubNav li a {
-    padding-left: 0 !important;
+    /*padding-left: 0 !important;*/ /* Removed due to padding conflict*/
 }
 
 ul ul > li.SubNavSelectedItem {

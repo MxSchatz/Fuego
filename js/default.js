@@ -270,7 +270,7 @@
     }
 
     //fixes the parent text width so it doesn't overlay on top of
-    $(".MenuArrow").parent().css("width","180px");
+//    $(".MenuArrow").parent().css("width","180px");
     
     
 })(jQuery);
