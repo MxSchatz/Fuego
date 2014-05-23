@@ -1,0 +1,93 @@
+/* ----------------------------------------------------------------------------------------------- */
+/*** HOME CUSTOM MESSAGE ***/
+/* ----------------------------------------------------------------------------------------------- */
+
+#t1_t2_c_p_tmplHome_lblCustomMessage {
+	display: block;
+	clear: both; 
+	overflow: hidden;
+	width: auto;
+	line-height: 1.5em;
+	background-color: #fff;
+    border: none;
+    margin-bottom: 0;
+	/* 
+	margin: 10px 0;
+	padding: 10px 15px;
+	background-color:#D9EDFF;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	color:#333;border: 1px solid rgba(2, 139, 255, 0.2);
+	border-radius: 3px;
+	*/
+} 
+
+/* ----------------------------------------------------------------------------------------------- */
+/*** ALL OTHER CUSTOM MESSAGE ***/
+/* ----------------------------------------------------------------------------------------------- */
+
+#t1_t2_c_p_lblCustomMessage {
+	display: block;
+	clear: both; 
+	overflow: hidden;
+	width: auto;
+	line-height: 1.5em;
+	background-color: #fff;
+    border: none;
+    margin-bottom: 0;
+	/* 
+	margin: 10px 0;
+	padding: 10px 15px;
+	background-color:#D9EDFF;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	color:#333;border: 1px solid rgba(2, 139, 255, 0.2);
+	border-radius: 3px;
+	*/
+
+} 
+
+/* ----------------------------------------------------------------------------------------------- */
+/*** INFORMATION/ERROR MESSAGE BOX ***/
+/* ----------------------------------------------------------------------------------------------- */
+
+.MessageBox {
+	display: block;
+	clear: both; 
+	overflow: hidden;
+	width: auto;
+	line-height: 1.5em;
+	background-color: #fff;
+    border: none;
+    margin-bottom: 0;
+	margin: 10px 0;
+	padding: 10px 15px;
+	background-color:#fee0df;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	color:#333;border: 1px solid #fecfcf;
+	border-radius: 3px;
+} 
+
+.HelpPopup {
+	display: block;
+	clear: both; 
+	overflow: hidden;
+	width: auto;
+	padding: 10px 15px; 
+	margin: 10px 0;
+	color:#333;border: 1px solid #fecfcf;
+	 border-radius: 3px;
+	line-height: 1.5em;
+	background-color:#fee0df !important;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.06);
+} 
+	
+.MessageBox img {
+	display: none; /* hides presixiting clip art. Remove to display. */
+}

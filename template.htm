@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <title>[[PageTitle]]</title>
+        <meta name = "viewport" content = "initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="/StyleSheets/Global.css" />
+        <link rel="stylesheet" type="text/css" href="css/layout.css" />
+        <link rel="stylesheet" type="text/css" href="css/message.css" />
+        <link rel="stylesheet" type="text/css" href="css/colors.css" />
+    </head>
+    <body id="top" class="[[PageTitle]] top">
+        <div class="Header">
+            <div id="Wrapper2">
+                <div class="MyLogo">
+                    <div id="LogoContainer">
+                        <a href="/UI/customer.aspx">[[BuyerLogo]] </a>
+                    </div>
+                </div>
+                <div class="MyCart">
+                    <div id="ProductSearch">
+                        [[ProductSearchBox]] [[ProductSearchButton]]<hr/> [[AccountBalance]]
+                    </div>
+                    <div class="view-cart">
+                        <a id="CartCount" href="/UI/Customer.aspx?p=CartDetail">$CartCount $CartTotal </a>
+                        <hr/><span id="cartButton" class="view-cart-link">[[NavViewCart]]</span>
+                    </div>
+                    <div id="cartContents">
+                        <!--- dropdown list of first ten items in cart contents --->
+                    </div>
+                </div>
+                <hr/>
+            </div>
+        </div>
+        <div class="Navigation">
+            <div id="TopNav">
+                <ul>
+                    <li class="MegaNav">
+
+                    </li>
+                    <li class="home">
+                        [[NavHome]]
+                    </li>
+                    <li class="products">
+                        [[NavProducts]]
+                    </li>
+                    <li class="order">
+                        [[NavOrders]][[NavReports]]
+                    </li>
+                    <li class="quickorder">
+                        [[QuickOrderForm]]
+                    </li>
+                    <li class="messages">
+                        [[NavMessages]]
+                    </li>
+                    <li class="admin">
+                        [[NavAdmin]]
+                    </li>
+
+                    <!--This is intended to be on the right side of the nav-->
+                    <ul style="float:right;display: inline-block;">
+                        <li class="contact">
+                            [[NavContact]]
+                        </li>
+                        <li class="logout">
+                            [[NavLogout]]
+                        </li>
+                    </ul>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="Content">
+            <div id="Wrapper1">
+                <div id="mega">
+                    <!--- dropdown list of category navigation --->
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" class="table-main">
+                    <tr>
+                        <td id="LeftNav" class="l-nav">
+                            <div class="l-nav-products">
+                                [[SubNav]]
+                            </div>
+                            <hr/>
+                            <div id="SellerLogoContainer">
+                                [[SellerLogo]]
+                            </div>
+                            <hr/>
+                        </td>
+                        <td id="spacer">
+                            &nbsp;
+                        </td>
+                        <td id="MainContentContainer">
+                            <div id="Wrapper3">
+                                <h1 id="PageTitle" class="title">
+                                    [[PageTitle]]
+                                </h1>
+                                <p id="Date" class="date">
+                                    [[DateTime]]
+                                </p>
+                                <hr/>
+                            </div>[[MainContent]]<!---
+                            The signature block, in whole or in part, may not be removed using theming functionality alone.
+                            Doing so violates the Agreement you signed with Four51. For more information, please submit a case.
+                            --->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div><hr/>
+        <div class="Footer">
+            <a id="back-top" href="#top"><i class="icon-arrow-up"></i></a>
+            <hr/>
+            <div class="footer-nav">
+                <div class="forCopyright"></div>
+                <div class="ground">
+                    <div id="footer-nav-links">
+                        <ul>
+                            <li>
+                                <a href="/UI/Customer.aspx?p=Home"><i class="icon-home"></i></a>
+                            </li>
+                            <li>
+                                <a href="/UI/Customer.aspx?p=Catalog"><i class="icon-folder-open"></i></a>
+                            </li>
+                            <li>
+                                <a href="/UI/Customer.aspx?p=OrderSearch"><i class="icon-bar-chart"></i></a>
+                            </li>
+                            <li>
+                                <a href="/UI/Customer.aspx?p=CartDetail"><i class="icon-shopping-cart"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type='text/javascript'>
+            // var title = '[[PageTitle]]'; tried this in conjunction with first line in default.js but still not exactly sure how to remove HTML injection into body class [[title]] token when a category has HTML in the text.
+        </script>
+        <script src="js/default.js" type="text/javascript"></script>
+        <script src="js/mods.js" type="text/javascript"></script>
+        <script src="js/selectivizr.js" type="text/javascript"></script>
+    </body>
+</html>

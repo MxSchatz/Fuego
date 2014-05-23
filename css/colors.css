@@ -1,0 +1,545 @@
+﻿
+/* HTML */
+/* ----------------------------------------------------------------------------------------------- */
+
+body {
+    background-color: #F6F6F6;
+    min-width: 980px;
+}
+
+h1 {
+    color: #49525D;
+}
+
+hr, br { 
+    background-color: transparent;
+}
+
+a, a b, .LinkButton {
+    color: #333;
+}
+
+a:hover, a:hover b, .LinkButton:hover {
+    color: #fa2a29;
+}
+
+/* Icons */
+/* ----------------------------------------------------------------------------------------------- */
+
+.welcome-links [class^="icon-"], .welcome-links [class*=" icon-"] {
+	color:#777;
+}
+	
+#TopNav [class^="icon-"], #TopNav [class*=" icon-"] {
+	color:#fff;
+}
+
+#footer-nav-links [class^="icon-"], #footer-nav-links [class*=" icon-"] {
+	color:#F6F6F6;
+}
+
+#footer-nav-links [class^="icon-"]:hover, #footer-nav-links [class*=" icon-"]:hover {
+	color:#fa2a29;
+}
+
+.view-cart [class^="icon-"], .view-cart [class*=" icon-"] {
+	color:#fff;
+}
+	
+#Date .icon-calendar {
+	color:#646F7D; 
+}
+
+td.DayCell:First-Child, td.DayCell:Last-Child {
+background-color: #fff0f0;
+}
+
+#WelcomeNav .icon-cloud {
+	color:#fa2a29;
+}	
+
+/* Administrative */
+/* ----------------------------------------------------------------------------------------------- */
+
+#WelcomeNav p {
+	color:#B90504;
+}
+
+.welcome-links a { 
+	color: #777; 
+	background-color: transparent;
+}
+
+body.Order:not(.Form) .welcome-links li.order a  { color:#B90504;}
+body.Report .welcome-links li.order a  {color:#B90504;}
+body.Admin .welcome-links li.admin a  {color:#B90504;}
+body.List.Users .welcome-links li.admin a  {color:#B90504;}
+body.Credit.Cards .welcome-links li.admin a  {color:#B90504;}
+body.Edit.Credit.Card .welcome-links li.admin a  { color:#B90504;}
+body.Clone.User .welcome-links li.Admin a  {color:#B90504;}
+body.New.User .welcome-links li.admin a  { color:#B90504;}
+body.Messages  .welcome-links li.messages a  { color:#B90504;}
+body.Message .welcome-links li.messages a { color:#B90504;}
+body.Order:not(.Form) .welcome-links li.order a i { color:#B90504; }
+body.Report .welcome-links li.order a i { color:#B90504; }
+body.Admin .welcome-links li.admin a i {color:#B90504; }
+body.List.Users .welcome-links li.admin a i { color:#B90504; }
+body.Credit.Cards .welcome-links li.admin a { color:#B90504; }
+body.Edit.Credit.Card .welcome-links li.admin a i {color:#B90504; }
+body.Clone.User .welcome-links li.admin a i { color:#B90504; }
+body.New.User .welcome-links li.admin a i { color:#B90504; }
+body.Messages .welcome-links li.messages a i { color:#B90504; }
+body.Message .welcome-links li.messages a i { color:#B90504; }
+
+/* Mega Dropdown Navigation */
+/* ----------------------------------------------------------------------------------------------- */
+
+#mega {    
+	background-color: #fff;
+}
+
+.mega-parent { 
+	color: #333 !important;
+}
+
+#mega #SubNav a {
+    color: #fa2a29;
+}
+
+#mega #SubNav a:hover {
+    color: #333 !important;
+}
+
+.view-all {
+	color:#49525D;
+}
+
+.view-all-button {
+    background-color:#B90504 !important;
+}
+
+.view-all-button:hover, .view-all-open {
+	background-color:#fa2a29 !important;
+}
+
+/* MyCart */
+/* ----------------------------------------------------------------------------------------------- */
+
+.view-cart {
+	background-color: #fff;
+}
+
+#cartContents {
+    background-color: #474747;
+}
+
+#cartContents ul li span {
+    color: #fff !important;
+}
+
+#cartContents ul li p {
+    color: #E5E5E5;
+}
+
+.view-cart a.NavButton {
+    background-color: #B90504;
+    color: #FFFFFF;
+}
+
+.view-cart a.NavButton:hover {
+    background-color: #fa2a29;
+}
+
+#ProductSearch {
+    background-color: #fff;
+}
+
+a#t1_t2_btnProductSearch {
+	color:#999;
+}
+
+.ProductSearchBox {
+    color: #999;
+}
+
+#CartCount {
+    color: #777;
+}
+
+.SpendingAccountLabel { 
+	background-color:#F0F0F0; 	
+}
+
+#SpendingAccounts, #SpendingAccounts ul { /* all lists */
+    background-color: #474747;
+}
+
+#SpendingAccounts a span {
+	color: #646F7D;
+}
+
+#SpendingAccounts li li a:hover {
+	background-color:#292E36;
+}
+
+#SpendingAccounts li li a:active {
+	background-color:#B90504;
+} 
+
+#SpendingAccounts li ul { 
+    background-color: #474747;
+    color: #ffffff;
+}
+
+#SpendingAccounts li ul a {
+    color: #ffffff; 
+}
+
+
+/* Containers */
+/* ----------------------------------------------------------------------------------------------- */
+
+.Header {
+	background-color:#fff;
+}
+
+.Administrative {
+	background-color:#fff;
+}
+
+.Navigation {
+	background-color:#F6F6F6;
+}
+
+#TopNav {
+    background-color: #B90504;
+}
+
+#TopNav a{ 
+    background-color:  #B90504;
+    color: #fff;
+}
+
+#TopNav a:hover {
+    background-color:#fa2a29;
+}
+
+#Wrapper1 {
+    background-color: #fff;
+}
+
+#Wrapper3 {
+    background-color: #fff;
+}
+
+#MainContentContainer {
+    background-color: #fff;
+}
+
+.Footer {
+	background-color: #E8E8E8;
+}
+
+.footer-nav {
+	background-color:#333333;
+}
+
+#footer h3 {
+    color: #fff;
+}
+
+#footer ul li a {
+    color: #8C8C8C;
+}
+
+
+#footer-nav-links a {    
+    color: #fff;
+}
+
+#back-top {
+	background-color:#B90504;
+}
+
+a#back-top:hover {
+    background-color: #B90504 !important;
+}
+	
+#back-top i {
+	color:#fff;
+}
+
+
+
+/* Dynamic Navigation */
+/* ----------------------------------------------------------------------------------------------- */
+
+.SubNavHeader {
+    background-color: #F0F0F0;
+}
+
+.SubNavHeader a {
+    background-color: #F0F0F0 !important;
+      color: #777;
+}
+
+.SubNavHeader a:hover {
+    background-color: #E5E5E5 !Important;
+    color: #444 !important;
+}
+
+.SubNav a {
+    color: #777;
+}
+
+.DynamicSubNav li, .DynamicSubNav li:hover, .DynamicSubNav li.sfHover, .DynamicSubNav a:focus, .DynamicSubNav a:hover, .DynamicSubNav a:active {
+    background-color: #F0F0F0;
+}
+
+.l-nav, .l-nav-bg, .l-nav-products {
+    background-color: #fff;
+}
+
+.DynamicSubNav li.menuparent.MenuHover {
+    background-color: #E5E5E5; /* update this is you would like side nav with sub categories to display different color on hover */
+}
+
+.DynamicSubNav li a:hover {
+    background-color: #E5E5E5;
+    color: #444 !important;
+}
+
+.DynamicSubNav li li {
+    background-color: #F0F0F0;
+}
+
+.SubNav ul {
+	background-color:#F0F0F0;
+}
+
+#LeftNav {
+    background-color: #F0F0F0;
+}
+
+#LeftNav a {
+    color: #555;
+}
+
+#LeftNav a:hover {
+    background-color: #E5E5E5;
+    color: #444;
+}
+
+.SubNavSelectedItem > a { 
+	color:#fa2a29 !important;
+} 
+
+/* Content */
+/* ----------------------------------------------------------------------------------------------- */
+
+.CategoryCrumbs  {
+    color: #999999 !important;
+}
+
+.InfoBoxHeader, .GridHeaderRow, .InfoBoxHeaderCollapsible, .LiteGridHeaderRow {
+    color: #fff !important;
+}
+
+.InfoBoxHeader td, .GridHeaderRow td, .InfoBoxHeaderCollapsible td, .LiteGridHeaderRow td {
+    color: #fff !important;
+}
+
+.InfoBoxHeader, .InfoBoxHeaderCollapsible, .LiteGridHeaderRow {
+    background-color: #474747;
+    color: #fff !important;
+}
+
+.GridHeaderRow td, .LiteGridHeaderRow td {
+    background-color: #474747;
+}
+
+td.Sortable div span {
+    color: #fff !important;
+}
+
+.Grid, .InfoBox {
+	background-color:#f0f0f0;
+}
+
+.Button {
+	color:#fff !important;
+}
+
+.Button:hover {
+    background-color:#292E36;
+	color: #fff;
+}
+
+button[disabled]:hover, input[disabled]:hover, button[disabled]:active, input[disabled]:active  {
+  color:#444444 !important;
+}
+
+#MainContentContainer td hr {
+	background-color: #d6d6d6 !important;
+}
+
+#t1_t2_c_divCopyright div, #t1_t2_c_divCopyright b, #t1_t2_c_divCopyright a {
+ 	color:#999 !important;
+}
+
+#t1_t2_c_divCopyright a:hover {
+    color:#fa2a29 !important;
+    text-decoration: none;
+}
+
+#t1_t2_c_p_txbProduct_hdn:hover {
+	background-color:#fa2a29;
+}
+
+#Date {
+	color:#646F7D;
+}
+
+.ShadedRegion {
+    background-color: #e9e9e9;
+}
+
+.CheckoutProgressBarCurrentStage {
+    color: #fa2a29;
+}
+
+.ConditionsOfUseLink {
+    color: #ffffff;
+}
+
+a.ConditionsOfUseLink:hover {
+    color: #ffffff;
+}
+
+.advancedSearch {
+    background-color: #f4f4f4 !important;
+}
+
+.DropDownList .advancedContent {
+    background: none repeat scroll 0 center #E9E9E9;
+}
+
+#t1_t2_c_p_ddlAddresses_txbSearch { 
+	background-color:transparent;
+}
+
+#t1_t2_c_p_ddlAddresses {
+	background-color:#fff !important;
+}
+
+#t1_t2_c_p_ddlAddresses  input, #t1_t2_c_p_ddlAddresses  input:hover {
+	color:#222 !important;
+}
+
+.DropDownList div.list {
+    background-color: #474747 !important;
+}
+
+#btnSearch.Button, #btnCancel.Button, #btnSearch.Button:hover, #btnCancel.Button:hover {
+    color: #ffffff !important;
+    border-color: transparent;
+}
+
+
+.result {
+	color:#fff !important;
+}
+
+.result b {
+	color:#fff !important;
+}
+
+.resulthover {
+	background-color:#B90504 !important; color:#fff;
+}
+
+.DropDownList .advancedContent input.Button {
+    color: #444444;
+}
+
+.DropDownList .advancedContent input:hover {
+	color: #fa2a29 !important;
+	border-color: #b9b9b9;    
+}
+
+.DropDownList div.ErrorBox { 
+	background: #ffffcc !important;
+	color: limegreen;
+}
+
+#t1_t2_c_p_btnRemove {
+	background-color:limegreen !important;
+}
+
+#t1_t2_c_p_tmplHome_ctlOrderSearch_hplFavoriteOrders, #t1_t2_c_p_hplFavoriteOrders { 
+ 	background-color:#F0F0F0;
+}
+
+.ac_results ul li:hover, .ac_results ul li.ac_over {
+	background-color:#B90504;
+}
+
+.ac_results ul li:hover strong, .ac_results ul li.ac_over strong  {
+	color:#fff;
+}
+
+.DropDownList .advancedContent input.Button {
+    color: white !important;
+}
+
+.search input {
+    border: 1px solid #222;
+}
+
+#t1_t2_c_divCopyright {
+    background-color: transparent;
+}
+
+.GridEvenRow TD {
+    background-color: #E5E5E5;
+}
+
+.GridOddRow TD {
+    background-color: transparent;
+}
+
+.GridEvenRow TD, .GridOddRow TD {
+    padding: 3px;
+}
+
+td.ProductListImageCell {
+    background-color: #fff;
+}
+
+.LiteGridHeaderRow td {
+    background-color: #E9E9E9;
+    color: #000 !important;
+}
+
+.InfoBoxHeader span, .GridHeaderRow span, .InfoBoxHeaderCollapsible span, .LiteGridHeaderRow span {
+    color: #fff !important;
+}
+
+tr.GridHeaderRow.GridEvenRow td {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+#t1_t2_c_p_orderDisplay_approvalList_dgPendingApprovals thead tr td {
+    background-color: #474747;
+    color: #fff !important;
+}
+
+#tree ul li {
+    background-color: #fff;
+}
+
+.placeholder
+{
+  color: #aaa;
+}
