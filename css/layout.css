@@ -1617,3 +1617,17 @@ table#productsTable table.LiteGrid td span{
 .talign-center {
     text-align: center;
 }
+
+/*--Fixes for conflicts with Bootstrap--*/
+#TopNav ul, #TopNav ol {
+     margin-bottom: 0;
+     box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     -webkit-box-sizing: content-box;
+ }
+
+#TopNav a, .view-all-button, #back-top{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
